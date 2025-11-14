@@ -1,0 +1,9 @@
+public interface IArmaFogo
+{
+    void Atirar();
+}
+
+public interface IArmaDeCorte
+{
+    void Cortar();
+}
