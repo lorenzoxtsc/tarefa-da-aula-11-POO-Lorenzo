@@ -1,0 +1,14 @@
+using UnityEngine;
+
+public class Espada : Arma, IArmaDeCorte
+{
+    public void Cortar()
+    {
+        Debug.Log($"Espada '{Nome}' cortando causando {Dano} de dano!");
+    }
+    
+    public override void Usar()
+    {
+        Cortar();
+    }
+}
